@@ -25,8 +25,8 @@ export default function TextForm(props) {
             <div className="mb-3">
                 <h2 className='my-3'>{props.heading}</h2>
                 <textarea className="form-control" id="exampleFormControlTextarea1" value={text} onChange={handler} rows="7"></textarea>
-                <button className="btn btn-primary my-3" onClick={setHover} >Hender</button>
-                <button className="btn btn-success my-3" onClick={setRover} >Render</button>
+                <button className="btn btn-primary my-3" onClick={setHover} >Do Upper</button>
+                <button className="btn btn-success my-3" onClick={setRover} >Do Lower</button>
             </div>
             <div className="container">
                 <h2 className='my-2'>Summary</h2>
